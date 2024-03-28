@@ -1,0 +1,266 @@
+.header-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: rgb(201, 255, 239);
+}
+
+hr {
+    margin: 4px;
+}
+ 
+.logo {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+    background-image: url('img/1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar > button {
+    height: 35px; 
+    padding-left: 25px;
+    padding-right: 25px;  
+}
+
+body {
+    background-color: white;
+    font-family: poppins;    
+}
+
+.section-top {
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+.section-top > header {
+    text-align: center;
+}
+
+.section-content-container {
+    display: flex;
+}
+
+h1 {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+h3 {
+    color: grey;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+h2 {
+    font-size: 22px;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+
+h4 {
+    font-size: 15px;
+    color: grey;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.name {
+    height: 35px;
+    width: 272px; 
+    margin-top: 5px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.email {
+    height: 35px;
+    width: 272px; 
+    margin-top: 5px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.wht {
+    height: 35px;
+    width: 272px; 
+    margin-top: 5px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.button-send > button {
+    height: 35px;
+    width: 275px;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: beige;
+    background-color: rgb(25, 17, 39);
+    border: 0px;
+    border-radius: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0px;
+    background-color: #efefef;
+}
+
+
+.container {
+    background-color: #a8a8a8;
+    padding: 55px 0 0 0;
+}
+
+/* Slideshow container */
+.content-slide {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.imgslide {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+    width:100%; height: 400px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    color: rgb(255, 254, 224);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: (0, 0, 0, 0.8); 
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.pre:hover,
+.next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+}
+
+.text {
+    color: #fafafa;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.content-slide .numberslide {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* resposive */
+
+@media screen and (max-width: 800px) {
+
+    .content-slide {
+        padding: 8px 50px 12px 50px;
+    }
+
+    .next {
+        right: 50px;
+        border-radius: 3px 0 0 3px;
+    }
+    
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }    
+    to {
+        opacity: 1;
+    }
+}
+
+.container .page {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.page .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 50%;
+}
+
+.page .active,
+.page .dot:hover {
+    background-color: #ce0000;
+}
+
+.logo1 {
+    width: 50px;
+    height: 50px; 
+    margin-left: 15px;
+    border-radius: 50%;
+    background-image: url('img/Profile.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-content2 {
+    margin-top: 20px;
+    display: flex;
+}
